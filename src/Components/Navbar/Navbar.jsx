@@ -4,6 +4,7 @@ import { RiMenuAddFill } from "react-icons/ri";
 import logo from "../../assets/logo-white.png";
 import { TiUser } from "react-icons/ti";
 import { TiUserAdd } from "react-icons/ti";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     const Links = [
@@ -17,7 +18,7 @@ const Navbar = () => {
 
     return (
         <div>
-            <div className="w-full bg-transparent fixed top-0 left-0 z-50">
+            <div className="w-full bg-transparent fixed top-0 left-0 z-50 object-cover">
                 <div className="md:flex items-center justify-between py-4 md:px-10 px-7">
                     <div className="font-bold text-2xl cursor-pointer flex items-center text-gray-800">
                         <img className="w-[140px] h-[38px] lg:w-[145px] md:h-[39px]" src={logo} alt="" />
@@ -92,9 +93,11 @@ const Navbar = () => {
                             </ul>
                         </div>
 
-                        <button className="md:px-6 md:bg-purple-600 md:py-3 md:rounded-lg lg:rounded-xl text-white">
-                            SignIn
-                        </button>
+                        <Link to="/login">
+                            <button className="md:px-6 md:bg-purple-600 md:py-3 md:rounded-lg lg:rounded-xl text-white">
+                                SignIn
+                            </button>
+                        </Link>
                     </div>
                 </div>
             </div>
