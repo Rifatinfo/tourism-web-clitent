@@ -76,8 +76,8 @@ const Navbar = () => {
                     </ul>
 
                     {/* Desktop Avatar and SignIn */}
-                    <div className="lg:flex lg:items-center lg:gap-4 hidden md:block">
-                        <div className="relative group">
+                    <div className="lg:flex lg:items-center lg:gap-4 md:flex md:items-center hidden gap-2">
+                        <div className="relative group ">
                             <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
                                 <div className="w-10 rounded-full">
                                     <img
