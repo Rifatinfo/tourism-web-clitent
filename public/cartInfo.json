@@ -1,0 +1,452 @@
+[
+    {
+      "id": 1,
+      "country_name": "Italy",
+      "price": 1500,
+      "address": "Rome, Italy",
+      "total_travel_day": 7,
+      "person": 2,
+      "travel_spot_image_gallery": [
+        "https://example.com/images/rome_colosseum.jpg",
+        "https://example.com/images/vatican_city.jpg",
+        "https://example.com/images/trevi_fountain.jpg"
+      ],
+      "rating": 4.8,
+      "overview": "Experience the ancient history and vibrant culture of Rome with guided tours of the Colosseum, Vatican City, and more.",
+      "Tour_Plan": {
+        "day1": "Arrival in Rome, check-in at the hotel, and leisure time.",
+        "day2": "Visit the Colosseum, Roman Forum, and Palatine Hill.",
+        "day3": "Guided tour of the Vatican Museums, Sistine Chapel, and St. Peter's Basilica.",
+        "day4": "Explore Piazza Navona, Pantheon, and Trevi Fountain.",
+        "day5": "Day trip to the Tuscan countryside with wine tasting.",
+        "day6": "Shopping and leisure day in Rome.",
+        "day7": "Departure from Rome."
+      },
+      "our_Information": {
+        "Max_Guests": 10,
+        "Min_Age": 12,
+        "Tour_Location": "Rome, Vatican City, Tuscany",
+        "Languages_Support": ["English", "Italian", "Spanish"],
+        "icon": "https://example.com/icons/tour_info.png"
+      },
+      "package": [
+        {
+          "id": 1,
+          "type": "Standard",
+          "Valid_from": "2024-01-01",
+          "Valid_till": "2024-12-31",
+          "Package_details": [
+            "Buffet breakfast as per the Itinerary",
+            "Guided tours of Rome, Vatican City, and Tuscan countryside",
+            "Comfortable and hygienic vehicle",
+            "Complimentary city maps and museum passes",
+            "All toll taxes, parking fees, and fuel included"
+          ],
+          "Price": 1500
+        },
+        {
+          "id": 2,
+          "type": "Deluxe",
+          "Valid_from": "2024-01-01",
+          "Valid_till": "2024-12-31",
+          "Package_details": [
+            "Buffet breakfast and lunch as per the Itinerary",
+            "Visit eight villages showcasing Tuscan culture",
+            "Private guided tours of historical landmarks",
+            "Complimentary camel safari and bonfire in countryside",
+            "All toll tax, parking, fuel, and driver allowances",
+            "Comfortable and hygienic private vehicle"
+          ],
+          "Price": 2000
+        },
+        {
+          "id": 3,
+          "type": "Super Deluxe",
+          "Valid_from": "2024-01-01",
+          "Valid_till": "2024-12-31",
+          "Package_details": [
+            "Luxury accommodation with all meals included",
+            "Private guided tours with VIP access to landmarks",
+            "Visit eight villages showcasing Tuscan culture",
+            "Complimentary camel safari, bonfire, and local dance show",
+            "All toll tax, parking, fuel, and driver allowances",
+            "Luxury vehicle with private chauffeur"
+          ],
+          "Price": 3000
+        }
+      ],
+      "Why_choose_us": "Personalized itineraries, expert guides, 24/7 customer support, and seamless travel experiences."
+    },
+    {
+      "id": 2,
+      "country_name": "Japan",
+      "price": 2500,
+      "address": "Tokyo, Japan",
+      "total_travel_day": 10,
+      "person": 2,
+      "travel_spot_image_gallery": [
+        "https://example.com/images/tokyo_tower.jpg",
+        "https://example.com/images/mount_fuji.jpg",
+        "https://example.com/images/kyoto_temple.jpg"
+      ],
+      "rating": 4.9,
+      "overview": "Explore the modern metropolis of Tokyo, the historical temples of Kyoto, and the natural beauty of Mount Fuji.",
+      "Tour_Plan": {
+        "day1": "Arrival in Tokyo, check-in at the hotel, and evening city tour.",
+        "day2": "Visit Sensoji Temple, Tokyo Tower, and explore Shibuya Crossing.",
+        "day3": "Day trip to Mount Fuji and Hakone with a cruise on Lake Ashi.",
+        "day4": "Bullet train ride to Kyoto and visit Fushimi Inari Shrine.",
+        "day5": "Tour the Golden Pavilion and Nijo Castle in Kyoto.",
+        "day6": "Experience a traditional tea ceremony and visit the Arashiyama Bamboo Forest.",
+        "day7": "Day trip to Nara to visit Todaiji Temple and feed the friendly deer.",
+        "day8": "Return to Tokyo for shopping and a visit to the Imperial Palace.",
+        "day9": "Leisure day in Tokyo with optional tours.",
+        "day10": "Departure from Tokyo."
+      },
+      "our_Information": {
+        "Max_Guests": 15,
+        "Min_Age": 10,
+        "Tour_Location": "Tokyo, Mount Fuji, Kyoto, Nara",
+        "Languages_Support": ["English", "Japanese"],
+        "icon": "https://example.com/icons/tour_info.png"
+      },
+      "package": [
+        {
+          "id": 1,
+          "type": "Standard",
+          "Valid_from": "2024-03-01",
+          "Valid_till": "2024-11-30",
+          "Package_details": [
+            "Buffet breakfast as per the Itinerary",
+            "Visits to famous landmarks in Tokyo and Kyoto",
+            "Comfortable and hygienic vehicle for city tours",
+            "All toll taxes, parking fees, and fuel included"
+          ],
+          "Price": 2500
+        },
+        {
+          "id": 2,
+          "type": "Deluxe",
+          "Valid_from": "2024-03-01",
+          "Valid_till": "2024-11-30",
+          "Package_details": [
+            "Buffet breakfast and lunch as per the Itinerary",
+            "Visit eight cultural villages showcasing traditional Japan",
+            "Private guided tours of temples and Mount Fuji",
+            "Comfortable and hygienic private vehicle",
+            "All toll tax, parking, fuel, and driver allowances"
+          ],
+          "Price": 3200
+        },
+        {
+          "id": 3,
+          "type": "Super Deluxe",
+          "Valid_from": "2024-03-01",
+          "Valid_till": "2024-11-30",
+          "Package_details": [
+            "Luxury accommodation with all meals included",
+            "Private VIP access to cultural landmarks",
+            "Visit eight cultural villages showcasing traditional Japan",
+            "Complimentary camel safari, bonfire, and local cultural performances",
+            "Luxury vehicle with private chauffeur",
+            "All toll tax, parking, fuel, and driver allowances"
+          ],
+          "Price": 4000
+        }
+      ],
+      "Why_choose_us": "Unforgettable cultural experiences, expert local guides, and hassle-free travel planning."
+    },
+    {
+      "id": 3,
+      "country_name": "Australia",
+      "price": 2200,
+      "address": "Sydney, Australia",
+      "total_travel_day": 8,
+      "person": 2,
+      "travel_spot_image_gallery": [
+        "https://example.com/images/sydney_opera_house.jpg",
+        "https://example.com/images/bondi_beach.jpg",
+        "https://example.com/images/great_barrier_reef.jpg"
+      ],
+      "rating": 4.7,
+      "overview": "Discover the stunning landscapes of Australia with a trip to Sydney, the Great Barrier Reef, and more.",
+      "Tour_Plan": {
+        "day1": "Arrival in Sydney and city tour.",
+        "day2": "Explore the Sydney Opera House and Harbour Bridge.",
+        "day3": "Day trip to the Blue Mountains and wildlife park.",
+        "day4": "Fly to Cairns and visit the Great Barrier Reef.",
+        "day5": "Snorkeling and diving at the Great Barrier Reef.",
+        "day6": "Day trip to the Daintree Rainforest.",
+        "day7": "Leisure day in Cairns with optional activities.",
+        "day8": "Departure from Australia."
+      },
+      "our_Information": {
+        "Max_Guests": 12,
+        "Min_Age": 10,
+        "Tour_Location": "Sydney, Blue Mountains, Great Barrier Reef",
+        "Languages_Support": ["English"],
+        "icon": "https://example.com/icons/tour_info.png"
+      },
+      "package": [
+        {
+          "id": 1,
+          "type": "Standard",
+          "Valid_from": "2024-05-01",
+          "Valid_till": "2024-11-30",
+          "Package_details": [
+            "Buffet breakfast as per the Itinerary",
+            "City tours and visits to landmarks",
+            "Comfortable and hygienic vehicle",
+            "All toll taxes, parking fees, and fuel included"
+          ],
+          "Price": 2200
+        },
+        {
+          "id": 2,
+          "type": "Deluxe",
+          "Valid_from": "2024-05-01",
+          "Valid_till": "2024-11-30",
+          "Package_details": [
+            "Buffet breakfast and lunch as per the Itinerary",
+            "Visit eight cultural spots in Sydney",
+            "Private guided tours of the Great Barrier Reef",
+            "All toll tax, parking, fuel, and driver allowances",
+            "Comfortable and hygienic private vehicle"
+          ],
+          "Price": 2800
+        },
+        {
+          "id": 3,
+          "type": "Super Deluxe",
+          "Valid_from": "2024-05-01",
+          "Valid_till": "2024-11-30",
+          "Package_details": [
+            "Luxury accommodation with all meals included",
+            "VIP guided tours with private access to landmarks",
+            "Helicopter ride over the Great Barrier Reef",
+            "Complimentary cultural show and local experiences",
+            "Luxury vehicle with private chauffeur"
+          ],
+          "Price": 3500
+        }
+      ],
+      "Why_choose_us": "Unparalleled natural wonders, expert guides, and personalized service."
+    },
+    {
+      "id": 4,
+      "country_name": "France",
+      "price": 1700,
+      "address": "Paris, France",
+      "total_travel_day": 5,
+      "person": 2,
+      "travel_spot_image_gallery": [
+        "https://example.com/images/eiffel_tower.jpg",
+        "https://example.com/images/louvre_museum.jpg",
+        "https://example.com/images/notre_dame.jpg"
+      ],
+      "rating": 4.6,
+      "overview": "Explore the romantic city of Paris with visits to the Eiffel Tower, Louvre Museum, and Notre Dame.",
+      "Tour_Plan": {
+        "day1": "Arrival in Paris and evening cruise on the Seine.",
+        "day2": "Visit the Eiffel Tower and Arc de Triomphe.",
+        "day3": "Guided tour of the Louvre Museum.",
+        "day4": "Explore Montmartre and Notre Dame Cathedral.",
+        "day5": "Leisure day and departure from Paris."
+      },
+      "our_Information": {
+        "Max_Guests": 10,
+        "Min_Age": 12,
+        "Tour_Location": "Paris",
+        "Languages_Support": ["English", "French"],
+        "icon": "https://example.com/icons/tour_info.png"
+      },
+      "package": [
+        {
+          "id": 1,
+          "type": "Standard",
+          "Valid_from": "2024-04-01",
+          "Valid_till": "2024-10-31",
+          "Package_details": [
+            "Buffet breakfast as per the Itinerary",
+            "Visits to landmarks like Eiffel Tower and Louvre",
+            "Comfortable and hygienic vehicle",
+            "All toll taxes, parking fees, and fuel included"
+          ],
+          "Price": 1700
+        },
+        {
+          "id": 2,
+          "type": "Deluxe",
+          "Valid_from": "2024-04-01",
+          "Valid_till": "2024-10-31",
+          "Package_details": [
+            "Buffet breakfast and lunch as per the Itinerary",
+            "Private guided tours of Paris landmarks",
+            "All toll tax, parking, fuel, and driver allowances",
+            "Comfortable and hygienic private vehicle"
+          ],
+          "Price": 2200
+        },
+        {
+          "id": 3,
+          "type": "Super Deluxe",
+          "Valid_from": "2024-04-01",
+          "Valid_till": "2024-10-31",
+          "Package_details": [
+            "Luxury accommodation with all meals included",
+            "VIP access to Eiffel Tower and Louvre",
+            "Private cultural show and wine tasting in Montmartre",
+            "Luxury vehicle with private chauffeur"
+          ],
+          "Price": 3000
+        }
+      ],
+      "Why_choose_us": "Iconic landmarks, romantic experiences, and world-class service."
+    },
+    {
+      "id": 5,
+      "country_name": "Brazil",
+      "price": 1800,
+      "address": "Rio de Janeiro, Brazil",
+      "total_travel_day": 6,
+      "person": 2,
+      "travel_spot_image_gallery": [
+        "https://example.com/images/christ_the_redeemer.jpg",
+        "https://example.com/images/sugarloaf_mountain.jpg",
+        "https://example.com/images/copacabana_beach.jpg"
+      ],
+      "rating": 4.5,
+      "overview": "Discover the vibrant culture of Rio de Janeiro with visits to Christ the Redeemer, Sugarloaf Mountain, and Copacabana Beach.",
+      "Tour_Plan": {
+        "day1": "Arrival in Rio and visit to Christ the Redeemer.",
+        "day2": "Cable car ride to Sugarloaf Mountain and Copacabana Beach.",
+        "day3": "Day trip to Tijuca Forest National Park.",
+        "day4": "Explore the historic center of Rio and Maracanã Stadium.",
+        "day5": "Samba show and leisure time at Ipanema Beach.",
+        "day6": "Departure from Rio."
+      },
+      "our_Information": {
+        "Max_Guests": 12,
+        "Min_Age": 10,
+        "Tour_Location": "Rio de Janeiro",
+        "Languages_Support": ["English", "Portuguese"],
+        "icon": "https://example.com/icons/tour_info.png"
+      },
+      "package": [
+        {
+          "id": 1,
+          "type": "Standard",
+          "Valid_from": "2024-06-01",
+          "Valid_till": "2024-12-31",
+          "Package_details": [
+            "Buffet breakfast as per the Itinerary",
+            "Guided city tours and landmark visits",
+            "Comfortable and hygienic vehicle",
+            "All toll taxes, parking fees, and fuel included"
+          ],
+          "Price": 1800
+        },
+        {
+          "id": 2,
+          "type": "Deluxe",
+          "Valid_from": "2024-06-01",
+          "Valid_till": "2024-12-31",
+          "Package_details": [
+            "Buffet breakfast and lunch as per the Itinerary",
+            "Private guided tours of Rio landmarks",
+            "All toll tax, parking, fuel, and driver allowances",
+            "Comfortable and hygienic private vehicle"
+          ],
+          "Price": 2300
+        },
+        {
+          "id": 3,
+          "type": "Super Deluxe",
+          "Valid_from": "2024-06-01",
+          "Valid_till": "2024-12-31",
+          "Package_details": [
+            "Luxury accommodation with all meals included",
+            "VIP guided tours with private access to landmarks",
+            "Samba show and private cultural performances",
+            "Luxury vehicle with private chauffeur"
+          ],
+          "Price": 3000
+        }
+      ],
+      "Why_choose_us": "Cultural immersion, personalized service, and unforgettable experiences."
+    },
+    {
+      "id": 6,
+      "country_name": "South Africa",
+      "price": 2000,
+      "address": "Cape Town, South Africa",
+      "total_travel_day": 7,
+      "person": 2,
+      "travel_spot_image_gallery": [
+        "https://example.com/images/table_mountain.jpg",
+        "https://example.com/images/robben_island.jpg",
+        "https://example.com/images/victoria_falls.jpg"
+      ],
+      "rating": 4.8,
+      "overview": "Experience the natural beauty and rich history of South Africa with visits to Cape Town, Robben Island, and Victoria Falls.",
+      "Tour_Plan": {
+        "day1": "Arrival in Cape Town and city tour.",
+        "day2": "Visit to Table Mountain and Camps Bay Beach.",
+        "day3": "Day trip to Robben Island and Kirstenbosch Gardens.",
+        "day4": "Fly to Victoria Falls and guided tour of the falls.",
+        "day5": "Safari experience in nearby national parks.",
+        "day6": "Leisure day and optional activities.",
+        "day7": "Departure from Cape Town."
+      },
+      "our_Information": {
+        "Max_Guests": 15,
+        "Min_Age": 12,
+        "Tour_Location": "Cape Town, Victoria Falls, Robben Island",
+        "Languages_Support": ["English"],
+        "icon": "https://example.com/icons/tour_info.png"
+      },
+      "package": [
+        {
+          "id": 1,
+          "type": "Standard",
+          "Valid_from": "2024-04-01",
+          "Valid_till": "2024-10-31",
+          "Package_details": [
+            "Buffet breakfast as per the Itinerary",
+            "City and nature tours",
+            "Comfortable and hygienic vehicle",
+            "All toll taxes, parking fees, and fuel included"
+          ],
+          "Price": 2000
+        },
+        {
+          "id": 2,
+          "type": "Deluxe",
+          "Valid_from": "2024-04-01",
+          "Valid_till": "2024-10-31",
+          "Package_details": [
+            "Buffet breakfast and lunch as per the Itinerary",
+            "Private guided tours of national parks and landmarks",
+            "All toll tax, parking, fuel, and driver allowances",
+            "Comfortable and hygienic private vehicle"
+          ],
+          "Price": 2600
+        },
+        {
+          "id": 3,
+          "type": "Super Deluxe",
+          "Valid_from": "2024-04-01",
+          "Valid_till": "2024-10-31",
+          "Package_details": [
+            "Luxury accommodation with all meals included",
+            "VIP guided tours with private access to landmarks",
+            "Helicopter ride over Victoria Falls",
+            "Luxury vehicle with private chauffeur"
+          ],
+          "Price": 3500
+        }
+      ],
+      "Why_choose_us": "Incredible wildlife, expert local guides, and personalized itineraries."
+    }
+  ]
+  

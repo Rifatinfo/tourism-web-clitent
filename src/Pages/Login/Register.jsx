@@ -1,9 +1,24 @@
-
+import { FcGoogle } from "react-icons/fc";
+import { FaFacebook } from "react-icons/fa6";
+import { FaTwitter } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import registerImg from "../../assets/registerImg.jpg";
 const Register = () => {
 
+    const handleRegister = e => {
+        e.preventDefault();
+        const form = e.target;
+        const name = form.name.value;
+        const photo = form.photo.value;
+        const confirmPassword = form.confirmPassword.value;
+        const email = form.email.value;
+        const password = form.password.value;
+        const registerInfo = { name, email, password, photo, confirmPassword }
+        console.log(registerInfo);
+    }
+
     return (
+
         <div>
             <div className="relative">
                 <img className="w-full h-96 object-cover lg:h-[513px]" src={registerImg} alt="Login" />
@@ -15,17 +30,17 @@ const Register = () => {
 
             {/* login field */}
             <div className="lg:w-[936px]  bg-[#f3f6fd] mx-auto mt-14">
-                <form>
+                <form onSubmit={handleRegister}>
                     <div className="space-y-3 p-5">
                         <p className="lg:text-2xl text-gray-400 md:text-xl text-xl text-center">Login your account</p>
                         <h1 className="lg:text-3xl  md:text-3xl text-2xl text-center md:font-bold  lg:font-bold font-semibold">Logged in to stay in touch</h1>
                     </div>
                     <div className="p-8 space-y-5">
-                        <input type="text" name="name" className="w-full h-14 border-2 border-[#dddddd75] px-3 py-5 mx-auto" placeholder="Enter user name" />
+                        <input type="name" name="name" className="w-full h-14 border-2 border-[#dddddd75] px-3 py-5 mx-auto" placeholder="Enter user name" />
                         <input type="email" name="email" className="w-full h-14 border-2 border-[#dddddd75] px-3 py-5 mx-auto" placeholder="Enter user Email" />
                         <input type="photo" name="photo" className="w-full h-14 border-2 border-[#dddddd75] px-3 py-5 mx-auto" placeholder="Enter user photoURL" />
                         <input type="password" name="password" className="w-full h-14 border-2 border-[#dddddd75] px-3 py-5 mx-auto" placeholder="Enter user password" />
-                        <input type="password" name="password" className="w-full h-14 border-2 border-[#dddddd75] px-3 py-5 mx-auto" placeholder="Enter user Confirm Password" />
+                        <input type="password" name="confirmPassword" className="w-full h-14 border-2 border-[#dddddd75] px-3 py-5 mx-auto" placeholder="Enter user Confirm Password" />
                         <label className="label justify-end">
                             <a href="#" className="label-text-alt link link-hover lg:text-xl md:text-xl text-sm">Forgot password?</a>
                         </label>
@@ -38,7 +53,16 @@ const Register = () => {
 
                         </div>
                     </div>
+                    <div className="mt-5 mb-5 p-2">
+                        <div className="divider">OR</div>
+                    </div>
+                    <div className="text-3xl flex justify-center items-center gap-4 mb-4">
+                        <p className="text-4xl"><FcGoogle /></p>
+                        <p className="text-blue-500"><FaFacebook /></p>
+                        <p className="text-blue-500"><FaTwitter /></p>
+                    </div>
                     <p className="lg:text-xl md:text-xl text-[16px] text-center">Already have an account? <Link to="/login"><span className="text-purple-500 font-bold hover:underline" >Login now</span></Link></p>
+
                 </form>
             </div>
         </div>
