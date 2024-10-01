@@ -56,19 +56,19 @@ const Navbar = () => {
                     {/* Mobile Menu Toggle */}
                     <div
                         onClick={() => setOpen(!open)}
-                        className={`text-3xl absolute right-8 top-6 cursor-pointer md:hidden z-50 ${open ? 'text-white' : 'text-black'}`}
+                        className={`text-3xl absolute right-8 top-6 cursor-pointer md:hidden z-50 ${open ? 'text-white' : 'text-white'}`}
                     >
                         {open ? <IoClose /> : <RiMenuAddFill />}
                     </div>
 
                     {/* Mobile Menu */}
                     <ul
-                        className={`md:hidden fixed top-0 left-0 w-full h-screen text-white bg-purple-900 p-10 pt-20 transition-all duration-500 ease-in-out z-40 ${open ? 'opacity-100' : 'opacity-0 -z-10'
+                        className={`md:hidden fixed top-0 left-0 w-full h-screen text-white font-semibold  bg-purple-900 p-10 pt-20 transition-all duration-500 ease-in-out z-40 ${open ? 'opacity-100' : 'opacity-0 -z-10'
                             }`}
                     >
                         {Links.map((link, index) => (
                             <li key={index} className="text-xl lg:text-xl my-7">
-                                <a href={link.link} className="text-white hover:text-gray-400 duration-500">
+                                <a href={link.link} className="text-white  hover:text-gray-400 duration-500">
                                     {link.name}
                                 </a>
                             </li>
