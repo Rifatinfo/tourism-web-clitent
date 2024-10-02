@@ -3,7 +3,7 @@ import Main from "../Main/Main";
 import Home from "../Pages/Home/Home";
 import Login from "../Pages/Login/Login";
 import Register from "../Pages/Login/Register";
-import TouristsSpots from "../Components/TouristsSpots/TouristsSpots";
+import Bookings from "../Components/Bookings/Bookings";
 
 export const router = createBrowserRouter([
     {
@@ -23,8 +23,9 @@ export const router = createBrowserRouter([
           element : <Register></Register>
         },
         {
-          path : "sport",
-          element : <TouristsSpots></TouristsSpots>
+          path : "bookings/:id",
+          element : <Bookings></Bookings>,
+          loader : ({params}) => fetch(`http://localhost:5000/bookings/${params.id}`)
         }
       ],
     },

@@ -1,7 +1,7 @@
 [
     {
-      "id": 1,
-      "country_name": "Italy",
+      "country_name": "Bangladesh",
+      "img" : "https://gaviaspreview.com/wp/tevily/wp-content/uploads/2021/11/tour-2-600x590.jpg",
       "price": 1500,
       "address": "Rome, Italy",
       "total_travel_day": 7,
@@ -78,8 +78,8 @@
       "Why_choose_us": "Personalized itineraries, expert guides, 24/7 customer support, and seamless travel experiences."
     },
     {
-      "id": 2,
-      "country_name": "Japan",
+      "country_name": "Thailand",
+      "img" : "https://gaviaspreview.com/wp/tevily/wp-content/uploads/2021/11/tour-3-600x590.jpg",
       "price": 2500,
       "address": "Tokyo, Japan",
       "total_travel_day": 10,
@@ -157,8 +157,8 @@
       "Why_choose_us": "Unforgettable cultural experiences, expert local guides, and hassle-free travel planning."
     },
     {
-      "id": 3,
-      "country_name": "Australia",
+      "country_name": "Indonesia",
+      "img" : "https://gaviaspreview.com/wp/tevily/wp-content/uploads/2021/11/tour-4-600x590.jpg",
       "price": 2200,
       "address": "Sydney, Australia",
       "total_travel_day": 8,
@@ -233,8 +233,8 @@
       "Why_choose_us": "Unparalleled natural wonders, expert guides, and personalized service."
     },
     {
-      "id": 4,
-      "country_name": "France",
+      "country_name": "Malaysia",
+      "img" : "https://andit.co/projects/html/and-tour/demo/assets/img/imagination/imagination1.png",
       "price": 1700,
       "address": "Paris, France",
       "total_travel_day": 5,
@@ -304,8 +304,8 @@
       "Why_choose_us": "Iconic landmarks, romantic experiences, and world-class service."
     },
     {
-      "id": 5,
-      "country_name": "Brazil",
+      "country_name": "Vietnam",
+      "img" : "https://andit.co/projects/html/and-tour/demo/assets/img/imagination/imagination2.png",
       "price": 1800,
       "address": "Rio de Janeiro, Brazil",
       "total_travel_day": 6,
@@ -376,8 +376,8 @@
       "Why_choose_us": "Cultural immersion, personalized service, and unforgettable experiences."
     },
     {
-      "id": 6,
-      "country_name": "South Africa",
+      "country_name": "Cambodia",
+      "img" : "https://andit.co/projects/html/and-tour/demo/assets/img/imagination/imagination3.png",
       "price": 2000,
       "address": "Cape Town, South Africa",
       "total_travel_day": 7,
