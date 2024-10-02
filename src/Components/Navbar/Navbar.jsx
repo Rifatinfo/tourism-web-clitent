@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
     const Links = [
         { name: 'Home', link: '/' },
-        { name: 'All Tourists Spot', link: '/all-tourists-sport' },
+        { name: 'All Tourists Spot', link: '/AddBookingPlace' },
         { name: 'Add Tourists Spot', link: '/add-tourists-spot' },
         { name: 'My List', link: '/my-list' }
     ];
