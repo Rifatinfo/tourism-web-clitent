@@ -5,6 +5,7 @@ import Login from "../Pages/Login/Login";
 import Register from "../Pages/Login/Register";
 import Bookings from "../Components/Bookings/Bookings";
 import AddTouristsSpot from "../Pages/AddTouristsSpot/AddTouristsSpot";
+import AllTouristSport from "../Pages/AllTouristSport/AllTouristSport";
 
 export const router = createBrowserRouter([
     {
@@ -31,6 +32,11 @@ export const router = createBrowserRouter([
         {
           path : "AddBookingPlace",
           element : <AddTouristsSpot></AddTouristsSpot>
+        },
+        {
+          path : "/users",
+          element : <AllTouristSport></AllTouristSport>,
+          loader : () => fetch('http://localhost:5000/users')
         }
       ],
     },
