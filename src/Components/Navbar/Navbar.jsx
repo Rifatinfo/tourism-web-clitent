@@ -10,8 +10,9 @@ const Navbar = () => {
     const Links = [
         { name: 'Home', link: '/' },
         { name: 'Add Tourists Spot', link: '/AddBookingPlace' },
-        { name: 'All Tourists Spot', link: '/users' },
-        { name: 'My List', link: '/my-list' }
+        { name: 'All Tourists Spots', link: '/all-tour-sport' },
+        { name: 'User Add Tourists Sport', link: '/users' },
+        { name: 'My List', link: '/users' }
     ];
 
     const [open, setOpen] = useState(false);

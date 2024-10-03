@@ -5,8 +5,9 @@ import Login from "../Pages/Login/Login";
 import Register from "../Pages/Login/Register";
 import Bookings from "../Components/Bookings/Bookings";
 import AddTouristsSpot from "../Pages/AddTouristsSpot/AddTouristsSpot";
-import AllTouristSport from "../Pages/AllTouristSport/AllTouristSport";
-
+import MyListPage from "../Pages/MyListPage/MyListPage";
+import AllTouristsSpots from "../Pages/AllTouristsSpots/AllTouristsSpots";
+import TourDetails from "../Components/TourDetails/TourDetails";
 export const router = createBrowserRouter([
     {
       path: "/",
@@ -35,9 +36,18 @@ export const router = createBrowserRouter([
         },
         {
           path : "/users",
-          element : <AllTouristSport></AllTouristSport>,
+          element : <MyListPage></MyListPage>,
           loader : () => fetch('http://localhost:5000/users')
-        }
+        },
+        {
+          path : '/all-tour-sport',
+          element : <AllTouristsSpots></AllTouristsSpots>
+        },
+        {
+          path : "/all-tour-sport/bookings/:id",
+          element : <TourDetails></TourDetails>,
+          loader : ({params}) => fetch(`http://localhost:5000/bookings/${params.id}`)
+        },
       ],
     },
   ]);
