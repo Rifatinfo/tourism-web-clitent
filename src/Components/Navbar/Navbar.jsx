@@ -11,7 +11,6 @@ const Navbar = () => {
         { name: 'Home', link: '/' },
         { name: 'Add Tourists Spot', link: '/AddBookingPlace' },
         { name: 'All Tourists Spots', link: '/all-tour-sport' },
-        { name: 'User Add Tourists Sport', link: '/users' },
         { name: 'My List', link: '/users' }
     ];
 
