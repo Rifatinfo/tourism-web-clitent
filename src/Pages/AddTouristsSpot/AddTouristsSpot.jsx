@@ -58,8 +58,8 @@ const AddTouristsSpot = () => {
                         <input type="number" name="average_cost" className="w-full h-14 border-2 border-[#dddddd75] px-3 py-5 mx-auto" placeholder="Enter Average Cost" />
                         <select type="text" name="seasonality" className="w-full h-14 border-2 border-[#dddddd75] px-3 py-3 mx-auto">
                             <option value="" disabled selected>Select Season</option>
-                            <option value="summer">Summer</option>
-                            <option value="winter">Winter</option>
+                            <option  value="summer">Summer</option>
+                            <option  value="winter">Winter</option>
                         </select>
                         <input type="number" name="travel_time" className="w-full h-14 border-2 border-[#dddddd75] px-3 py-5 mx-auto" placeholder="Enter Travel Days" />
                         <input type="number" name="totalVisitors" className="w-full h-14 border-2 border-[#dddddd75] px-3 py-5 mx-auto" placeholder="Enter Total Visitors" />

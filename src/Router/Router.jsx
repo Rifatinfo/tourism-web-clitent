@@ -8,6 +8,7 @@ import AddTouristsSpot from "../Pages/AddTouristsSpot/AddTouristsSpot";
 import MyListPage from "../Pages/MyListPage/MyListPage";
 import AllTouristsSpots from "../Pages/AllTouristsSpots/AllTouristsSpots";
 import TourDetails from "../Components/TourDetails/TourDetails";
+import Update from "../Components/Update/Update";
 export const router = createBrowserRouter([
     {
       path: "/",
@@ -48,6 +49,11 @@ export const router = createBrowserRouter([
           element : <TourDetails></TourDetails>,
           loader : ({params}) => fetch(`http://localhost:5000/bookings/${params.id}`)
         },
+        {
+          path : "/update/:id",
+          element : <Update></Update>,
+          loader : ({params}) => fetch(`http://localhost:5000/users/${params.id}`)
+        }
       ],
     },
   ]);
