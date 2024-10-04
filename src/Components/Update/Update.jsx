@@ -31,6 +31,22 @@ const Update = () => {
       email,
     };
     console.log(user);
+    fetch(`http://localhost:5000/users/${loadedUsers._id}` , {
+        method : "PUT",
+        headers : {
+            'content-type' : 'application/json'
+        },
+        body : JSON.stringify(user)
+    })
+    .then(res => res.json())
+    .then(data => {
+        console.log(data);
+        if (data.modifiedCount > 0 || data.upsertedCount > 0) {
+            alert('User Update Successfully');
+        } else {
+            alert('No changes made to the user.');
+        }
+    })
   };
   return (
     <div  className="lg:w-[936px] bg-[#f3f6fd] mx-auto mt-32">
