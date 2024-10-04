@@ -1,9 +1,32 @@
 import { Link, useLoaderData } from "react-router-dom";
 import { IoCloseCircle } from "react-icons/io5";
+import { useState } from "react";
 
 const MyListPage = () => {
-  const users = useLoaderData(); // This will have the loaded data
-  console.log(users);
+  const loadedUsers = useLoaderData(); // This will have the loaded data
+  console.log(loadedUsers);
+  const [users, setUsers] = useState(loadedUsers);
+  const handleDelete = _id => {
+    console.log(_id);
+    fetch(`http://localhost:5000/users/${_id}`, {
+        method: 'DELETE',
+    })
+    .then(res => res.json())
+    .then(data => {
+        console.log(data);
+        if (data.deletedCount > 0) {
+            alert('Successfully deleted');
+            const remaining = users.filter(user => user._id !== _id);
+            setUsers(remaining); // Update the state to remove the deleted user
+        } else {
+            alert('Failed to delete');
+        }
+    })
+    .catch(err => {
+        console.error('Error:', err);
+    });
+};
+
   return (
     <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4 mt-28 max-w-6xl mx-auto">
       {users.map((user) => (
@@ -73,7 +96,7 @@ const MyListPage = () => {
               </Link>
             </div>
             <div className="relative text-4xl right-4">
-                <h1 className="text-purple-400"><IoCloseCircle /></h1>
+                <button onClick={() => handleDelete(user._id)} className="text-purple-400"><IoCloseCircle /></button>
             </div>
           </div>
         </div>
